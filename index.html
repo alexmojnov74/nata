@@ -1,23 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-<title>Наталия О'Тей Персонал Блог</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Наталия О'Тей Персональный Блог</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="jumbotron">
+    <!-- Navigation Bar -->
+
+    <nav class="navbar sticky-top navbar-dark navbar-expand-md bg-dark justify-content-center" data-aos="fade-down"
+        data-aos-delay="200">
+        <a href="/" class="navbar-brand mr-0">Наталия О'Тей</a>
+        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item nav-it active">
+                    <a class="nav-link" href="index.html">Обо Мне</a>
+                </li>
+                <li class="nav-item nav-it">
+                    <a class="nav-link" href="coaching.html">Лайф Кочинг</a>
+                </li>
+                <li class="nav-item nav-it">
+                    <a class="nav-link" href="numerology.html">Нумерология</a>
+                </li>
+                <li class="nav-item nav-it">
+                    <a class="nav-link" href="tarot.html">Карты Таро</a>
+                </li>
+                <li class="nav-item nav-it">
+                    <a class="nav-link" href="contact.html">Контакты</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+                <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#exampleModal"><i
+                            class="fas fa-phone-square fa"></i></a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- End Navigation Bar -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Звоните прямо сейчас!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>Наталья</h3><br>
+                    <h4>646-420-3025</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary bt1" data-dismiss="modal">Закрыть</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <div class="container cont" data-aos="fade-up" data-aos-delay="1000">
+        <div class="jumbotron jumb">
+            <h1>Возьми жизнь под контроль</h1>
+            <div class="row">
+                <div class="col col-md-4 justify-content-center">
+                    <img src="images/nata.jpg" class="img-fluid img-thumbnail" alt="Natalia O'Tei" /><br>
+                    <br>
+
+                    <div class="card cr1" style="width: 20rem;">
+                        <div class="card-body">
+                            <i class="fas fa-quote-right fs"></i>
+                            <p class="card-text">Natalia provides unique spiritual services. I came to her for a
+                                counseling and meditation. I had experienced incredible result! I was so relaxed and
+                                emotionally exited! I got very important answers how to fulfill my life. I will
+                                definitely to come to Natalia again
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-8">
+                    <p>Каждый из нас снова и снова возвращаясь в этот мир, приносит в подсознании так называемый
+                        «багаж». Подсознание- это память нашей Души. А «багаж»- это эмоциональный опыт предыдущих
+                        жизней. Это именно то, что сегодня проявляется в нашей реакции на ситуацию, формирует наши
+                        ментальные программы и убеждения; определяет наши чаяния и порывы. <br>Именно подсознание точно
+                        знает кто вы и, что может сделать вас счастливее. Вам интересно, что скрывается в вашем
+                        подсознании? Какая информация «ждёт» выхода? Хотите понять, что сдерживает вас от достижения
+                        целей и когда следует что-то предпринимать? Вам важно знать, какого рода «тесты» посылает вам
+                        Вселенная? Вы желаете научиться контактировать со своими ангелами-хранителями и получать ответы
+                        от Высших Сил? Обращайтесь ко мне. Я могу Вам помочь.</p>
+                     <h3>Раскройте свои сбособности</h3>
+                    <p>Так что же на самом деле сохраняет нас на определенном уровне бытия? Что именно определяет наше
+                        взаимодействие друг с другом и самим собой? Что заставляет нас реагировать на конкретную
+                        ситуацию так, как мы это делаем? Ответ прост: это наши вибрации. Их уровень и частота.
+                        <br>Именно от
+                        вибраций зависит течение жизни каждого человека. Именно вибрации определяют наше внутреннее
+                        состояние и отношение ко всему окружающему. Возможно ли повысить свои вибрации? Безусловно! Как?
+                        Ну, конечно, путём осознанности. Когда концентрируешься на своих чувствах, понимаешь, как в этот
+                        момент вибрируешь. Негатив всегда вызывает низкие вибрации, которые ещё больше осложнят
+                        ситуацию. Позитив же сопровождается высокими вибрациями, ведущими к разрешению проблемы и
+                        чему-то новому и замечательному. Так проявляется один из законов Вселенной. Его принцип -
+                        подобное притягивает подобное.
+                        Но, если вам сложно повышать вибрации, обращайтесь ко мне. Я могу помочь вам.</p>
+                </div>
+            </div>
+            <div class="row rw">
+                <h2>Специальные Предложения</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card cr" data-aos="fade-right" data-aos-delay="1000">
+                        <div class="card-body">
+                            <h5 class="card-title">Только до 10 августа!</h5>
+                            <p class="card-text">Таро ридинг бесплатно
+                            </p>
+                            <a href="#" class="btn btn-primary bt">Посмотреть Предложение</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card cr" data-aos="fade-left" data-aos-delay="1000">
+                        <div class="card-body">
+                            <h5 class="card-title">Только в Сентябре!</h5>
+                            <p class="card-text">Лайф Кочинг и Нумерологичекий расклад за $50
+                            </p>
+                            <a href="#" class="btn btn-primary bt">Посмотреть Предложение</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            disable: 'mobile',
+            duration: 1200
+        });
+    </script>
 </body>
+
 </html>
